@@ -1,13 +1,2 @@
-@import url(reset.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(style5.css);
-@import url(fonts.css);
-.clear {
-  clear: both; }
-
-.center {
-  text-align: center; }
-
+@import url(reset.css);@import url(style2.css);@import url(style3.css);@import url(style4.css);@import url(style5.css);@import url(fonts.css);.clear{clear:both}.center{text-align:center}.button-1{padding:11px 19px}.button-1_grey{background-color:#ffe20a;background-image:linear-gradient(to top, #b0b0b0 0%, #979797 0%, #fff 100%);color:#000000;font-size:18px}.button-1_orange{background-color:#01236a;background-image:linear-gradient(to top, #ff6400 0%, #fea13c 0%, #ffba00 100%);padding:11px 43px;text-transform:uppercase;color:#fff;font-size:30px}
 /*# sourceMappingURL=style.css.map */
