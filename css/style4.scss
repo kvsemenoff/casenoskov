@@ -1,10 +1,64 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
 
+/* Шапка
+==========================*/
+
+.dd-top-header{
+	background: url('../img/top-bg.jpg') no-repeat top center;
+	background-size:cover;
+	width: 100%;
+}
+.dd-header-top-left{
+	text-align:center;
+	span:first-child{
+		// font-size:36px;
+		font-size:31px;
+		font-family: "RobotoBold";
+		color:#000000;
+		text-transform:uppercase;
+	}
+	span:last-child{
+		font-family: "RobotoCondensedLight";
+		color:#000000;
+		font-size:26px;
+	}
+}
+.karta-wrap{
+	padding-bottom: 37px;
+}
+.dd-karta{
+	background: url('../img/karta.png') no-repeat top center;
+	height: 99px;
+	text-align:center;
+	span{
+		color:black;
+		display: inline-block;
+		// font-size:24px;
+		font-size:20px;
+		padding-top: 25px;
+		font-family: "RobotoBold";
+	}
+}
+.dd-header-top-tel{
+	text-align:center;
+	.dd-sp1{
+		font-family: "RobotoCondensedRegular";
+		font-size:30px;
+		color:black;
+		span{
+			font-size:36px;
+		}
+	}
+	.dd-sp2{
+		display:inline-block;
+		font-family: "RobotoCondensedRegular";
+		font-size:18px;
+		color:black;
+		padding-bottom: 12px;
+	}
+}
+.dd-button-wrap{
+	padding-bottom: 25px;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -12,6 +66,28 @@
 }
 
 @media only screen and (min-width : 768px) {
+
+	.dd-header-top-left{
+		text-align:left;
+		span:first-child{
+			font-size:36px;
+		}
+	}
+	.dd-karta{
+		background: url('../img/karta.png') no-repeat top -18px center;
+		text-align:left;
+		span{
+			font-size:24px;
+			padding-top: 25px;
+			margin-left: -57px;
+		}
+	}
+	.dd-header-top-tel{
+		text-align:right;
+	}
+	.dd-button-wrap{
+		padding-bottom: 0px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
@@ -24,7 +100,7 @@
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
