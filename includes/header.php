@@ -20,7 +20,7 @@
 					<span class="dd-sp1">Звоните<span> +7() ****????</span></span><br>
 					<span class="dd-sp2">время работы<span> 10:00 - 21:00</span></span>
 					<div class="dd-button-wrap">
-						<a class="button-1 button-1_grey button-1_font_1" href="#">Заказать обратный звонок</a>
+						<a href="#log-in" name="modal" class="button-1 button-1_grey button-1_font_1">Заказать обратный звонок</a>
 					</div>
 				</div>
 			</div>
@@ -144,12 +144,13 @@
 						<div class="dd-form-relative">
 							<div class="dd-header-form-wrap-all">
 								<div class="dd-header-form-wrap">
-									<form action="#">
+									<form class="form1" method="post" action="#">
 										<div class="dd-input-wrap">
-											<input class="mtop" type="text" placeholder="8(___)___-__-__" class="phone" name="phone">
+											<input class="mtop phone" type="text" placeholder="8(___)___-__-__"  name="phone">
 										</div>
 										<div class="dd-header-button-wrap">
-											<a class="button-1 button-1_orange button-1_font_2" href="#">Заказать</a>
+										<input class="button-1 button-1_orange button-1_font_2" type="submit" name="submit" value="Заказать">	
+											<!-- <a class="button-1 button-1_orange button-1_font_2" href="#">Заказать</a> -->
 										</div>
 										<div class="dd-txt-but">
 											<span>Мы гарантируем сохранность персональных данных</span>
