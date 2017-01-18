@@ -263,21 +263,29 @@
 		color: #ffffff;
 		font-family: "RobotoCondensedBold";
 		margin: 6px 0;		
+<<<<<<< HEAD
 		-webkit-transition: background 0.5s;
 		-moz-transition: background 0.5s;
 		transition-property: background;
 		transition-duration: 1s;
 		transition: background 0.5s;		
+=======
+		transition: all 0.5s;	
+>>>>>>> 2a64842267a9ad635816f64dde9d0c6028fb71d8
 	}	
 }
 .df-blocksocks__order_view button:hover{		
 		background: linear-gradient(to bottom, #ffc420, #ff7b20);
 		-webkit-background: linear-gradient(top, #ffc420, #ff7b20);
+<<<<<<< HEAD
 		-webkit-transition: background 0.5s;
 		-moz-transition: background 0.5s;
 		transition-property: background;
 		transition-duration: 1s;
 		transition: background 0.5s;	
+=======
+		transition: all 0.5s;	
+>>>>>>> 2a64842267a9ad635816f64dde9d0c6028fb71d8
 	}
 
 
