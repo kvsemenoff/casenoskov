@@ -45,19 +45,20 @@
 
 <!-- Bottom header -->
 <section class="dd-bottom-header">
-	<div class="container">
+	<div class="container rel">
 		<div class="row">
-			<div class="col-md-12">
-				<div class="dd-keys-wrap">
-					<div class="dd-keys-img">
-						<img class="img-responsive" src="img/keys.png" alt="">
-					</div>
+			
+			<div class="dd-keys-wrap">
+				<div class="dd-keys-img">
+					<img class="img-responsive" src="img/keys.png" alt="">
 				</div>
-				<div class="dd-actsia">
-					<span>Внимание!</span><br>
-					<span>Акция</span>
-				</div>
-				<!-- Товары по акции -->
+			</div>
+			<div class="dd-actsia">
+				<span>Внимание!</span><br>
+				<span>Акция</span>
+			</div>
+			<!-- Товары по акции -->
+			<div class="dd-actions-wrap">
 				<div class="dd-actions margin">
 					<span>К каждому заказу – 2 пары<br>
 						войлочных  фольгированных<br> 
@@ -91,59 +92,95 @@
 									<img src="img/clock.png" alt="">
 								</div>
 							</div>
-							<!-- Timer -->
-							<div class="dd-timer">
-								<div class="dd-timer-txt">
-									<span>До конца акции осталось:</span>
-								</div>
-								<div class="dd-timer-all-wrap">
-									<div class="dd-timer">
-										<div class="dd-times">
-											<div class="dd-div">
+						</div>
+						<div class="clearfix"></div>
+						<!-- Timer -->
+						<div class="relative">
+							<div class="timer-container">
+								<div class="dd-timer">
+									<div class="dd-timer-txt">
+										<span>До конца акции осталось:</span>
+									</div>
+									<div class="dd-timer-all-wrap">
+										<div class="dd-timer">
+											<div class="dd-times">
+												<div class="dd-div">
 
-												<span id="dd-days">02</span>
-											</div>
-											<div class="dd-div">
+													<span id="dd-days">02</span>
+												</div>
+												<div class="dd-div">
 
-												<span id="dd-hours"></span>
-											</div>
-											<div class="dd-div">
+													<span id="dd-hours"></span>
+												</div>
+												<div class="dd-div">
 
-												<span id="dd-min"></span>
-											</div>
-											<div class="dd-div">
+													<span id="dd-min"></span>
+												</div>
+												<div class="dd-div">
 
-												<span id="dd-sec"></span>
-											</div>
-											<div class="dd-time-txt">
-												<span>дней</span>
-											</div>
-											<div class="dd-time-txt dd-time-txt1">
-												<span>часов</span>
-											</div>
-											<div class="dd-time-txt dd-time-txt2">
-												<span>минут</span>
-											</div>
-											<div class="dd-time-txt dd-time-txt3">
-												<span>секунд</span>
+													<span id="dd-sec"></span>
+												</div>
+												<div class="dd-time-txt">
+													<span>дней</span>
+												</div>
+												<div class="dd-time-txt dd-time-txt1">
+													<span>часов</span>
+												</div>
+												<div class="dd-time-txt dd-time-txt2">
+													<span>минут</span>
+												</div>
+												<div class="dd-time-txt dd-time-txt3">
+													<span>секунд</span>
+												</div>
 											</div>
 										</div>
 									</div>
+									<div class="clearfix"></div>
 								</div>
 							</div>
-							<!-- Конец Таймер -->
-
 						</div>
-							<div class="dd-header-form-wrap">
-								<form action="#">
-									<input type="text" class="phone" name="phone">
-									<a class="button-1 button-1_orange button-1_font_2" href="#">Заказать</a>
-								</form>
+						<!-- Конец Таймер -->
+
+						<div class="dd-form-relative">
+							<div class="dd-header-form-wrap-all">
+								<div class="dd-header-form-wrap">
+									<form action="#">
+										<div class="dd-input-wrap">
+											<input class="mtop" type="text" placeholder="8(___)___-__-__" class="phone" name="phone">
+										</div>
+										<div class="dd-header-button-wrap">
+											<a class="button-1 button-1_orange button-1_font_2" href="#">Заказать</a>
+										</div>
+										<div class="dd-txt-but">
+											<span>Мы гарантируем сохранность персональных данных</span>
+										</div>
+									</form>
+									<div class="dd-watch-the-case">
+										<a href="#">Посмотреть Кейсы</a>
+									</div>
+								</div>
 							</div>
+						</div>	
 					</div>
 				</div>
 			</section>
 
+			<!-- Меню хедер -->
+			<section class="dd-menu-header">
+				<div class="container">
+					<div class="row">
+						<div class="dd-menu-header-container">
+							<ul>
+								<li class="dd-first"><a class="active" href="#">Главная</a></li>
+								<li><a href="#">Кейсы носков</a></li>
+								<li><a href="#">Носки для лета</a></li>
+								<li><a href="#">Доставка</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<script>
 
