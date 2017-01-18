@@ -32,7 +32,7 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	
+	<?php require_once('includes/comfort.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	
