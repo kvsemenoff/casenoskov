@@ -36,10 +36,9 @@
 	<?php require_once('includes/howseecase.php'); ?>
 	<?php require_once('includes/pay.php'); ?>
 	<?php require_once('includes/casesocks.php'); ?>
-<<<<<<< HEAD
-=======
+
 	<?php require_once('includes/questions.php'); ?>
->>>>>>> 2a64842267a9ad635816f64dde9d0c6028fb71d8
+
 	<?php require_once('includes/mostimportant.php'); ?>
 	<?php require_once('includes/contacts.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
