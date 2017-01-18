@@ -147,7 +147,21 @@ padding-bottom: 30px;
 
 
 @media only screen and (min-width : 320px) {
+.db-case-content__case1{
 
+	img{
+		
+		width: 100%;
+		height:auto;
+	}
+}
+.db-case-content__case2{
+
+	img{
+		width: 100%;
+		height:auto;
+	}
+}
 
 }
 
@@ -241,6 +255,9 @@ padding-bottom: 30px;
 
 }
 
+.section_padding-db{
+padding:40px 0 !important;
+}
 
 .db-case-content__case2{
 	margin-left: -88px;

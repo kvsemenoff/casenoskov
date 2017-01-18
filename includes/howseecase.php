@@ -1,4 +1,4 @@
-<section class="section section_background-db">
+<section class="section section_background-db section_padding-db">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
