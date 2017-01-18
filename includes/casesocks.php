@@ -53,8 +53,10 @@
 						<span class="df-blocksocks__price df-blocksocks__price_view">Сумма: <span>2500 руб.</span></span>
 
 						<div class="df-blocksocks__order df-blocksocks__order_view">
-							<input type="text" placeholder="8(___)___-__-__">
-							<button>ЗАКАЗАТЬ</button>
+							<form method="post" class="form1">
+								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
+								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+							</form>
 						</div>
 					</div>
 				</div>
@@ -102,8 +104,10 @@
 						<span class="df-blocksocks__price df-blocksocks__price_view">Сумма: <span>2500 руб.</span></span>
 
 						<div class="df-blocksocks__order df-blocksocks__order_view">
-							<input type="text" placeholder="8(___)___-__-__">
-							<button>ЗАКАЗАТЬ</button>
+							<form method="post" class="form1">
+								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
+								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+							</form>
 						</div>
 					</div>
 				</div>
@@ -153,15 +157,17 @@
 						<span class="df-blocksocks__price df-blocksocks__price_view">Сумма: <span>2500 руб.</span></span>
 
 						<div class="df-blocksocks__order df-blocksocks__order_view">
-							<input type="text" placeholder="8(___)___-__-__">
-							<button>ЗАКАЗАТЬ</button>
+							<form method="post" class="form1">
+								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
+								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+							</form>
 						</div>
 					</div>
 				</div>
 
 				<div class="df-blocksocks df-blocksocks_view">
 					<div class="df-blocksocks__absolute df-blocksocks__absolute_view4">Для лета и спорта</div>
-					<div class="df-blocksocks__image df-blocksocks__image_view">
+					<div class="df-blocksocks__image df-blocksocks__image_view df-bg-img">
 						<img src="img/df-case4.png" class="img-responsive" alt="">
 					</div>
 					<div class="df-blocksocks__text-block df-blocksocks__text-block_view">
@@ -204,15 +210,17 @@
 						<span class="df-blocksocks__price df-blocksocks__price_view">Сумма: <span>2500 руб.</span></span>
 
 						<div class="df-blocksocks__order df-blocksocks__order_view">
-							<input type="text" placeholder="8(___)___-__-__">
-							<button>ЗАКАЗАТЬ</button>
+							<form method="post" class="form1">
+								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
+								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+							</form>
 						</div>
 					</div>
 				</div>
 
 				<div class="df-blocksocks df-blocksocks_view">
 					<div class="df-blocksocks__absolute df-blocksocks__absolute_view5">Удобно</div>
-					<div class="df-blocksocks__image df-blocksocks__image_view">
+					<div class="df-blocksocks__image df-blocksocks__image_view df-bg-img">
 						<img src="img/df-case5.png" class="img-responsive" alt="">
 					</div>
 					<div class="df-blocksocks__text-block df-blocksocks__text-block_view">
@@ -255,8 +263,10 @@
 						<span class="df-blocksocks__price df-blocksocks__price_view">Сумма: <span>2500 руб.</span></span>
 
 						<div class="df-blocksocks__order df-blocksocks__order_view">
-							<input type="text" placeholder="8(___)___-__-__">
-							<button>ЗАКАЗАТЬ</button>
+							<form method="post" class="form1">
+								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
+								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+							</form>
 						</div>
 					</div>
 				</div>
@@ -304,8 +314,10 @@
 						<span class="df-blocksocks__price df-blocksocks__price_view">Сумма: <span>2500 руб.</span></span>
 
 						<div class="df-blocksocks__order df-blocksocks__order_view">
-							<input type="text" placeholder="8(___)___-__-__">
-							<button>ЗАКАЗАТЬ</button>
+							<form method="post" class="form1">
+								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
+								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+							</form>
 						</div>
 					</div>
 				</div>
