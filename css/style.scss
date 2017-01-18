@@ -33,15 +33,12 @@
 	background-image: linear-gradient(to top, #ff6400 0%, #fea13c 0%, #ffba00 100%);
 	text-transform:uppercase;
 	color:#fff;
-	padding: 11px 43px;
+	padding: 4px 43px;
 }
 
 .button-1_orange:hover{
-	background-color: #ff6800;
-	background-image: linear-gradient(to top, #ff6400 0%, #fea13c 0%, #ffba00 100%);
-	text-transform:uppercase;
-	color:#fff;
-	padding: 11px 43px;
+	background-color: #01236a;
+	background-image: linear-gradient(to top, #ff4800 0%, #ff8300 100%);
 }
 
 .button-1_font_1{
@@ -72,6 +69,7 @@ color:#fff;
 	color: #3d3d3d;
 }
 input[type="text"]{
+	width: 252px;
 	background-color: white;
 	border-radius: 3px;
 	height: 46px;
