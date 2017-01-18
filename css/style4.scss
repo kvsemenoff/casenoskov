@@ -201,7 +201,7 @@
 	text-align:center;
 }
 .dd-header-button-wrap{
-	padding-top: 20px;
+	padding-top: 19px;
 }
 .mtop{
 	margin-top:18px;
@@ -210,7 +210,7 @@
 	padding-top: 8px;
 	span{
 		display: inline-block;
-		font-size: 16px;
+		font-size: 14px;
 		font-family: "RobotoCondensedRegular";
 		color:black;
 		background:url(../img/zamok.png) no-repeat left center;
@@ -275,10 +275,78 @@
 	border-bottom:unset !important;
 	color:#FFBA00 !important;
 }
+
+/* Поп ап
+=================================*/
+
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
+
+.window{ 
+	display: none;
+	position:absolute;
+	left:0;  
+	top:0;
+	display:none;
+	z-index:9998; 
+	border:none;
+	.form-wrap-main{
+		border:1px solid #fff;
+		background: #DDDDDD;
+		padding: 30px 38px;
+		text-align: center;
+	}
+	.form-title{
+		font-family: "RobotoCondensedRegular";
+		font-size: 25px;
+	}
+	.dd-form-txt{
+		font-family: "RobotoCondensedRegular";
+		font-size: 20px;
+	}
+	.dd-close{
+		width: 30px;
+		height: 30px;
+    	background:url(../img/kres.png) no-repeat center;
+    	position:absolute;
+    	top:-27px;
+    	right:-27px;
+    	cursor: pointer;
+    }
+}
+.dd-form-wrap{
+	max-width:330px;
+}
+.width100{
+	width:100% !important;
+}
+.pop-title{
+	padding-bottom: 28px;
+	text-align:center;
+	span:first-child{
+		font-size: 24px;
+		font-family: "RobotoCondensedRegular";
+		color:#666666;
+		text-transform: uppercase;
+	}
+	span:last-child{
+		font-size: 24px;
+		font-family: "RobotoCondensedRegular";
+		color:#666666;
+	}
+}
+.mtt{
+	margin-top: 19px;
+}
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+
+	.dd-txt-but{
+		span{
+			font-size: 16px;
+		}
+	}
 	.dd-actions{
 		padding: 10px 40px;
 	}
@@ -306,20 +374,20 @@
 
 @media only screen and (min-width : 992px) {
 
-.dd-menu-header-container{
-	text-align:center;
-	li{
-		display: inline-block;
-		padding-left: 61px;
-		a{
-			font-size: 18px;
-			text-transform: uppercase;
+	.dd-menu-header-container{
+		text-align:center;
+		li{
+			display: inline-block;
+			padding-left: 61px;
+			a{
+				font-size: 18px;
+				text-transform: uppercase;
+			}
+		}
+		.dd-first{
+			padding-left: 0;
 		}
 	}
-	.dd-first{
-		padding-left: 0;
-	}
-}
 
 	.dd-header-top-left{
 		text-align:left;
@@ -420,7 +488,7 @@
 			}
 			.dd-header-button-wrap{
 				a{
-					padding-top: 7px;
+					// padding-top: 7px;
 					margin-left: 8px;
 				}
 			}

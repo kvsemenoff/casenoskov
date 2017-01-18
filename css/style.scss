@@ -28,12 +28,20 @@
 	color:#000000;
 	padding: 11px 19px;
 }
+.button-1_grey:hover{
+	background-color: #ffe20a;
+	background-image: linear-gradient(to top, #828282 0%, #c9c9c9 100%);
+	color:#fff;
+}
 .button-1_orange{
 	background-color: #01236a;
 	background-image: linear-gradient(to top, #ff6400 0%, #fea13c 0%, #ffba00 100%);
 	text-transform:uppercase;
 	color:#fff;
-	padding: 4px 43px;
+	padding: 3px 43px;
+	transition:all 0.9s;
+	border:none;
+	margin-left: 8px;
 }
 
 .button-1_orange:hover{
@@ -57,7 +65,7 @@ h2{
 	padding-top: 43px;
 }
 .h2_white{
-color:#fff;	
+	color:#fff;	
 }
 .h2_color_1{
 	color: #ff6500;
