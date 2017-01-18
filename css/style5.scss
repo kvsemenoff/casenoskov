@@ -144,12 +144,11 @@
 
 .df-blocksocks__image_view{
 	text-align: center;	
-	padding: 55px 15px 14px 15px;
+	padding: 55px 15px 14px 15px;	
 	img{
 		display: inline-block;
 	}
 }
-
 .df-blocksocks__text-block_view{
 	background-color: #e0e0e0;
 	padding-top: 20px;
@@ -171,18 +170,14 @@
 	text-align: center;
 }
 
-
-
 .df-blocksocks__characteristics_view, .df-blocksocks__characteristics-text_view{
 	font-size: 18px;
 	font-family: "RobotoCondensedLight";
 	color: #6b6b6b;
 	display: block;
-	line-height: 22px;
-	// margin-left: -21px;
+	line-height: 22px;	
 }
-.df-blocksocks__inputs_view{
-	// margin: 0px 6px 0 0;
+.df-blocksocks__inputs_view{	
 	margin: 0px 6px 7px 0;
 	width: 105px;
 	height: 94px;
@@ -251,8 +246,7 @@
 		padding-left: 5px !important;
 		border-radius: 0 !important;
 	}
-	button{
-		
+	.df-but{		
 		-webkit-background: linear-gradient(top, #ff8100, #ff4b00);
 		background: linear-gradient(to bottom, #ff8100, #ff4b00);
 		display: inline-block;
@@ -262,38 +256,24 @@
 		font-size: 24px;
 		color: #ffffff;
 		font-family: "RobotoCondensedBold";
-		margin: 6px 0;		
-<<<<<<< HEAD
+		margin: 6px 0;	
 		-webkit-transition: background 0.5s;
 		-moz-transition: background 0.5s;
 		transition-property: background;
 		transition-duration: 1s;
-		transition: background 0.5s;		
-=======
+		transition: background 0.5s;
 		transition: all 0.5s;	
->>>>>>> 2a64842267a9ad635816f64dde9d0c6028fb71d8
 	}	
 }
-.df-blocksocks__order_view button:hover{		
-<<<<<<< HEAD
-	background: linear-gradient(to bottom, #ff8000, #ff4900);
-	-webkit-background: linear-gradient(top, #ff8000, #ff4900);
+.df-blocksocks__order_view .df-but:hover{	
+	background: linear-gradient(to bottom, #ffc420, #ff7b20);
+	-webkit-background: linear-gradient(top, #ffc420, #ff7b20);	
+	transition-property: background;
+	transition-duration: 1s;
 	transition: all 0.5s;	
+
 }
-=======
-		background: linear-gradient(to bottom, #ffc420, #ff7b20);
-		-webkit-background: linear-gradient(top, #ffc420, #ff7b20);
-<<<<<<< HEAD
-		-webkit-transition: background 0.5s;
-		-moz-transition: background 0.5s;
-		transition-property: background;
-		transition-duration: 1s;
-		transition: background 0.5s;	
-=======
-		transition: all 0.5s;	
->>>>>>> 2a64842267a9ad635816f64dde9d0c6028fb71d8
-	}
->>>>>>> 54f9e455c2dfdb814fef184f22b7444e37651c42
+
 
 
 
@@ -458,6 +438,11 @@
 	}
 	.df-question_view{		
 		text-align:left;
+	}
+	.df-bg-img{
+		background-image: url("../img/df-case-mix.png");
+		background-repeat: no-repeat;
+		background-position:  bottom 18px left 25px;
 	}
 
 }
