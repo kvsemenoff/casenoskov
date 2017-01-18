@@ -34,6 +34,7 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/comfort.php'); ?>
 	<?php require_once('includes/casesocks.php'); ?>
+	<?php require_once('includes/mostimportant.php'); ?>
 	<?php require_once('includes/contacts.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
