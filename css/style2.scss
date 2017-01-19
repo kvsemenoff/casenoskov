@@ -306,6 +306,9 @@
 	.db-h2{
 		text-align: center;
 		padding-bottom: 20px;
+		h2{
+		padding-top:0 !important;
+	}
 	}
 
 	
@@ -353,7 +356,7 @@
 
 			.db-button-db{
 				padding: 10px;
-				    margin-left: 0px !important;
+				    margin-left: 0px !important; 
 
 			}
 		}
