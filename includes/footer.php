@@ -48,3 +48,16 @@
 	</div>
 </div>
 <a href="#thanks" name="modal"></a>
+
+<script>
+	$(function() {
+		$("#js-nav a, #js-nav2 a ").click(function(e){
+			e.preventDefault();
+			var currentBlock = $(this).attr("href");
+			currentBlockoffset = $(currentBlock).offset().top;
+			$("html, body").animate({
+				scrollTop: currentBlockoffset
+			}, 500);
+		});
+	});   
+</script> 

@@ -1,15 +1,7 @@
-<section class="section section_padding" id="js-socks">
+<section class="section section_padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 df-view">
-				<h2 class="df-case-caption df-case-caption_view">Кейсы носков</h2>
-				<div class="df-top-block df-top-block_view">
-					<span>Все носки одинаковые</span>
-					<span>Гладкие, без рисунка</span>
-					<span>Умеренно тянутся</span>
-					<span>Резинка не жмет</span>
-				</div>
-
 				<div class="df-blocksocks df-blocksocks_view">
 					<div class="df-blocksocks__absolute df-blocksocks__absolute_view">Выгодно</div>
 					<div class="df-blocksocks__image df-blocksocks__image_view">
@@ -224,7 +216,7 @@
 						<img src="img/df-case5.png" class="img-responsive" alt="">
 					</div>
 					<div class="df-blocksocks__text-block df-blocksocks__text-block_view">
-						<h4 class="df-blocksocks__cap df-blocksocks__cap_view">Кейс носков <span>«Носки ХБ MIX»</span></h4>
+						<h4 class="df-blocksocks__cap df-blocksocks__cap_view">Кейс носков <span>«Бамбуковые носки MIX»</span></h4>
 						<div class="df-blocksocks__char">
 							<span class="df-blocksocks__characteristics df-blocksocks__characteristics_view">Состав: 100% Хлопок </span>
 							<span class="df-blocksocks__characteristics df-blocksocks__characteristics_view">Цвет: черный, серый, белый </span>
