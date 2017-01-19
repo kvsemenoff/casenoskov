@@ -1,6 +1,6 @@
 
 <!-- Top header -->
-<section class="dd-top-header">
+<section class="dd-top-header" id="js-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
@@ -156,8 +156,8 @@
 											<span>Мы гарантируем сохранность персональных данных</span>
 										</div>
 									</form>
-									<div class="dd-watch-the-case">
-										<a href="#">Посмотреть Кейсы</a>
+									<div class="dd-watch-the-case" id="js-nav2">
+										<a href="#js-keys">Посмотреть Кейсы</a>
 									</div>
 								</div>
 							</div>
@@ -171,12 +171,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="dd-menu-header-container">
-							<ul>
-								<li class="dd-first"><a class="active" href="#">Главная</a></li>
-								<li><a href="#">Кейсы носков</a></li>
-								<li><a href="#">Носки для лета</a></li>
-								<li><a href="#">Доставка</a></li>
-								<li><a href="#">Контакты</a></li>
+							<ul id="js-nav">
+								<li class="dd-first"><a class="active" href="#js-header">Главная</a></li>
+								<li><a href="#js-socks">Кейсы носков</a></li>
+								<li><a href="#js-summer">Носки для лета</a></li>
+								<li><a href="#js-dostavka">Доставка</a></li>
+								<li><a href="#js-contact">Контакты</a></li>
 							</ul>
 						</div>
 					</div>

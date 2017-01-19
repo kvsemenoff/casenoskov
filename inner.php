@@ -32,16 +32,10 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header2.php'); ?>
-	<!-- <?php require_once('includes/comfort.php'); ?> -->
-	<!-- <?php require_once('includes/howseecase.php'); ?> -->
-	<!-- <?php require_once('includes/pay.php'); ?> -->
-	<!-- <?php require_once('includes/casesocks.php'); ?> -->
 	<?php require_once('includes/casesocks2.php'); ?>
-
-	<?php require_once('includes/questions.php'); ?>
-
-	<?php require_once('includes/mostimportant.php'); ?>
-	<?php require_once('includes/contacts.php'); ?>
+	<?php require_once('includes/pay.php'); ?>
+	<?php require_once('includes/map.php'); ?>
+	<?php require_once('includes/innertext.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	

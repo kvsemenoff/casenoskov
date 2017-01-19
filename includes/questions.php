@@ -1,4 +1,4 @@
-<section class="section section_padding section__bg-df">
+<section class="section section_padding section__bg-df" id="js-summer">
 	<div class="container">
 		<div class="row">			
 			<h2 class="df-questions__caption df-questions__caption_view">Часто задаваемые вопросы</h2>

@@ -29,16 +29,56 @@
 	</div>
 </section>
 
-<!-- Middle header -->
-<section class="dd-middle-header">
+<!-- Middle header inner -->
+<section class="dd-middle-header text-left">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="middle-header-title">
-					<span>Купи КЕЙС НОСКОВ</span><br>
-					<span class="dd-next-span">по очень выгодной цене сегодня - и получи <span> 3 подарка!</span></span>
+				<div class="brad-crumps">
+					<a href="#">Главная</a><span>Бамбуковые</span>
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
+
+<section class="inner-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="inner-title">
+					<span>Бамбуковые носки сегодня доступны каждому</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="inner-keys-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="dd-keys-inner">
+					<img class="img-responsive" src="img/k2.png" alt="">
+				</div>
+				<div class="dd-inner-txt">
+					<span>Носки – один из немногих элементов гардероба, в которых бамбук проявил 
+						практически все свои уникальные характеристики и особенности. Ткань из 
+						бамбуковых волокон невероятно полезна для нашей кожи, что ее идеальным 
+						материалом для изготовления носков. Именно этот предмет одежды больше 
+						всего сталкивается с влагой, температурными перепадами, потоотделением и 
+						загрязнениями. Совсем недавно купить мужские носки из бамбука можно было 
+						по цене, превышающей стоимость хлопчатобумажных изделий в несколько раз. 
+						Сегодня же носки бамбуковые, а точнее их цена почти идентична стоимости 
+						хлопковых носков. Также на рынке представлены гольфы и колготки из 
+						бамбуковых волокон, но их популярность далека от носков.
+					</span>
+					<div class="inner-but">
+						<a class="button-1 button-1_orange button-1_font_2 uns" href="#">Посмотреть все носки</a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>	
 		</div>
 	</div>
 </section>

@@ -306,12 +306,12 @@
 	.dd-close{
 		width: 30px;
 		height: 30px;
-    	background:url(../img/kres.png) no-repeat center;
-    	position:absolute;
-    	top:-27px;
-    	right:-27px;
-    	cursor: pointer;
-    }
+		background:url(../img/kres.png) no-repeat center;
+		position:absolute;
+		top:-27px;
+		right:-27px;
+		cursor: pointer;
+	}
 }
 .dd-form-wrap{
 	max-width:330px;
@@ -337,6 +337,107 @@
 .mtt{
 	margin-top: 19px;
 }
+
+/* Внутренняя
+===============================*/
+
+// Хлебные крошки
+.text-left{
+	text-align:left;
+	padding-top: 18px !important;
+	padding-bottom: 11px !important;
+}
+.brad-crumps{
+	a{
+		font-family: "RobotoCondensedLight";
+		font-size: 20px;
+		color: black;
+		display: inline-block;
+		border-bottom:1px dashed black;
+	}
+	span{
+		background:url(../img/g.png) no-repeat left center;
+		padding-left: 17px;
+		margin-left: 10px;
+		display: inline-block;
+		font-size: 20px;
+		color: black;
+		display: inline-block;
+		font-family: "RobotoCondensedRegular";
+	}
+}
+.inner-top{
+	background:url(../img/inbg.jpg) no-repeat top center;
+	width: 100%;
+	background-size: cover;
+	padding: 17px 0px;
+	text-align:center;
+}
+.inner-title{
+	span{
+		font-family: "RobotoCondensedRegular";
+		color: black;
+		font-size: 30px;
+		display: inline-block;
+	}
+}
+
+// Кейс с текстом
+.uns{
+	text-transform:unset !important;
+}
+.dd-keys-inner{
+	img{
+		margin: 0 auto;
+	}
+}
+.dd-inner-txt{
+	text-align:left;
+	padding-top: 20px;
+	span{
+		display: inline-block;
+		font-family: "RobotoCondensedRegular";
+		color: #333;
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+.inner-but{
+	text-align:center;
+	padding: 43px 0px;
+	a{
+		margin-left: 0px !important;
+	}
+}
+.inner-keys-wrap{
+	padding-top: 58px;
+	border-bottom:3px solid #DEDEDE;
+	padding-bottom: 56px;
+	margin-bottom: 43px;
+}
+.dd-map{
+	height: 384px;
+}
+.dd-zag{
+	text-align:center;
+	padding-top: 42px;
+	padding-bottom: 49px;
+	span{
+		font-family: "RobotoCondensedRegular";
+		color: black;
+		font-size: 30px;
+	}
+}
+.dd-n{
+	display:inline-block;
+	font-family: "RobotoCondensedLight";
+	font-size: 18px;
+	color: black;
+}
+.pb{
+	padding-bottom: 34px;
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -374,6 +475,17 @@
 
 @media only screen and (min-width : 992px) {
 
+	.dd-keys-inner, .dd-inner-txt{
+		float: left;
+	}
+	.dd-inner-txt{
+		width: 596px;
+		padding-top: 30px;
+		margin-left: 28px;
+	}
+	.inner-but{
+		text-align:left;
+	}
 	.dd-menu-header-container{
 		text-align:center;
 		li{
@@ -496,7 +608,7 @@
 		// Конец хедер боттом
 	}
 
-	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {

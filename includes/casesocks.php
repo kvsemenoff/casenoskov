@@ -1,4 +1,4 @@
-<section class="section section_padding">
+<section class="section section_padding" id="js-socks">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 df-view">
