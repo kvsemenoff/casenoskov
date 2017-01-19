@@ -66,7 +66,7 @@
 	display: block;
 	background: url('../img/dc-left-arrow.png') no-repeat;
 	position: absolute;
-	top: 0px;
+	top: 50%;
     left: 30px;
 }
 
@@ -76,8 +76,8 @@
 	display: block;
 	background: url('../img/dc-right-arrow.png') no-repeat;
 	position: absolute;
-	    right: 20px;
-    top: 0px;
+	right: 20px;
+    top: 50%;
 }
 
 .responses {
@@ -89,6 +89,9 @@
 	font-family: "RobotoCondensedRegular";
 	font-size: 18px;
 	font-weight: 300;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 50px;
 }
 
 .responses__slider_title {
@@ -96,10 +99,13 @@
 	font-family: "MyriadPro";
 	font-size: 24px;
 	font-weight: 400;
+	padding-top: 30px;
 }
 
-.responses__slider_image {
-	
+.responses__slider_image {	
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 50px;
 }
 
 #circle {
