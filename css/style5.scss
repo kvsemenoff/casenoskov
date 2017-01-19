@@ -247,8 +247,9 @@
 		border-radius: 0 !important;
 	}
 	.df-but{		
-		-webkit-background: linear-gradient(top, #ff8100, #ff4b00);
-		background: linear-gradient(to bottom, #ff8100, #ff4b00);
+		-webkit-background: linear-gradient(top, #ffb600, #ff6400);
+		background: linear-gradient(to bottom, #ffb600, #ff6400);
+		
 		display: inline-block;
 		border: none;
 		width: 150px;
@@ -265,9 +266,8 @@
 		transition: all 0.5s;	
 	}	
 }
-.df-blocksocks__order_view .df-but:hover{	
-	background: linear-gradient(to bottom, #ffc420, #ff7b20);
-	-webkit-background: linear-gradient(top, #ffc420, #ff7b20);	
+.df-blocksocks__order_view .df-but:hover{		
+	background-image: linear-gradient(to top, #ff4800 25%, #ff8300 100%);	
 	transition-property: background;
 	transition-duration: 1s;
 	transition: all 0.5s;	

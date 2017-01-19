@@ -66,7 +66,7 @@
 	display: block;
 	background: url('../img/dc-left-arrow.png') no-repeat;
 	position: absolute;
-	top: 50%;
+	top: 30%;
     left: 30px;
 }
 
@@ -77,21 +77,26 @@
 	background: url('../img/dc-right-arrow.png') no-repeat;
 	position: absolute;
 	right: 20px;
-    top: 50%;
+    top: 30%;
 }
 
 .responses {
 	text-align: center;
+	h2 {
+		margin-top: -50px;
+	}
 }
 
 .responses__slider_text {
 	color: black;
 	font-family: "RobotoCondensedRegular";
-	font-size: 18px;
-	font-weight: 300;
+	font-size: 17px;
+	font-weight: 100;
+    line-height: 130%;
 	margin-left: 80px;
 	margin-right: 80px;
-	margin-top: 50px;
+	margin-top: 18px;
+	background: url("../img/dc-brackets.png") no-repeat left top;
 }
 
 .responses__slider_title {
@@ -99,22 +104,29 @@
 	font-family: "MyriadPro";
 	font-size: 24px;
 	font-weight: 400;
-	padding-top: 30px;
+	padding-top: 10px;
+}
+
+.responses__slider_padding {
+	padding-top: 35px;
+	text-align: center;
+	display: inline-block;	
+}
+
+.responses__slider_border {
+    width: 136px;
+    height: 136px;
+	border-radius: 68px; /* Радиус скругления */
+    border: 1px solid #d3d3d3; /* Параметры рамки */	    
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.43);
 }
 
 .responses__slider_image {	
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-top: 50px;
+	padding: 5px;	
 }
 
-#circle {
-	width: 100px;
-	height: 100px;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	box-shadow: 0 0 7px rgba(0, 0, 0, 0.43);
+
+@media only screen and (max-width : 700px) {
 }
 
 @media only screen and (min-width : 320px) {
