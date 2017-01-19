@@ -1,4 +1,4 @@
-<section class="section section_padding">
+<section class="section section_padding section_padding-dc_view">
 	<div class="container">		
 		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 		    <div class="row">		
@@ -9,8 +9,11 @@
 			
 					<div class="responses__slider slider-db">
 					    <div class="item">
-                            <img class="responses__slider_image" src="../img/dc-slider-1.png">
-
+					        <div class="responses__slider_padding">
+						        <div class="responses__slider_border">
+	                                <img class="responses__slider_image" src="../img/dc-slider-1.png">
+	                            </div>
+	                        </div>
 					        <div class="responses__slider_title">
 					        	Екатерина, 32 года, Дмитров
 					        </div>
@@ -19,8 +22,11 @@
 					        </div>
 		                </div>
 		                <div class="item">
-                            <img class="responses__slider_image" src="../img/dc-slider-2.png">
-
+					        <div class="responses__slider_padding">
+						        <div class="responses__slider_border">
+	                                <img class="responses__slider_image" src="../img/dc-slider-2.png">
+	                            </div>
+	                        </div>
 					        <div class="responses__slider_title">
 					        	Виктор, 30 лет, Люберцы
 					        </div>
@@ -29,8 +35,11 @@
 					        </div>
 		                </div>
 		                <div class="item">
-                            <img class="responses__slider_image" src="../img/dc-slider-3.png">
-
+					        <div class="responses__slider_padding">
+						        <div class="responses__slider_border">
+	                                <img class="responses__slider_image" src="../img/dc-slider-3.png">
+	                            </div>
+	                        </div>
 					        <div class="responses__slider_title">
 					        	Павел, 28 лет, Ярославль
 					        </div>
@@ -39,8 +48,11 @@
 					        </div>
 		                </div>
 		                <div class="item">
-                            <img class="responses__slider_image" src="../img/dc-slider-4.png">
-
+					        <div class="responses__slider_padding">
+						        <div class="responses__slider_border">
+	                                <img class="responses__slider_image" src="../img/dc-slider-4.png">
+	                            </div>
+	                        </div>
 					        <div class="responses__slider_title">
 					        	Валерия, 30 лет, Москва
 					        </div>
@@ -49,8 +61,11 @@
 					        </div>
 		                </div>
 		                <div class="item">
-                            <img class="responses__slider_image" src="../img/dc-slider-5.png">
-
+					        <div class="responses__slider_padding">
+						        <div class="responses__slider_border">
+	                                <img class="responses__slider_image" src="../img/dc-slider-5.png">
+	                            </div>
+	                        </div>
 					        <div class="responses__slider_title">
 					        	Владимир, 37 лет, Чехов
 					        </div>
@@ -59,7 +74,11 @@
 					        </div>
 		                </div>
 		                <div class="item">
-                            <img class="responses__slider_image" src="../img/dc-slider-6.png">
+					        <div class="responses__slider_padding">
+						        <div class="responses__slider_border">
+	                                <img class="responses__slider_image" src="../img/dc-slider-6.png">
+	                            </div>
+	                        </div>
 					        <div class="responses__slider_title">
 					        	Александр, 29 лет, Москва
 					        </div>
@@ -68,7 +87,11 @@
 					        </div>
 		                </div>
 		                <div class="item">
-                            <img class="responses__slider_image" src="../img/dc-slider-7.png">
+					        <div class="responses__slider_padding">
+						        <div class="responses__slider_border">
+	                                <img class="responses__slider_image" src="../img/dc-slider-7.png">
+	                            </div>
+	                        </div>
 					        <div class="responses__slider_title">
 					        	Оксана, 24 года, Санкт-Петербург
 					        </div>
@@ -77,7 +100,11 @@
 					        </div>
 		                </div>
 		                <div class="item">
-                            <img class="responses__slider_image" src="../img/dc-slider-8.png">
+					        <div class="responses__slider_padding">
+						        <div class="responses__slider_border">
+	                                <img class="responses__slider_image" src="../img/dc-slider-8.png">
+	                            </div>
+	                        </div>
 					        <div class="responses__slider_title">
 					        	Виталий, 36 лет, Истра
 					        </div>
