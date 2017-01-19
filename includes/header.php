@@ -174,7 +174,7 @@
 							<ul id="js-nav">
 								<li class="dd-first"><a class="active" href="#js-header">Главная</a></li>
 								<li><a href="#js-socks">Кейсы носков</a></li>
-								<li><a href="#js-summer">Носки для лета</a></li>
+								<li><a href="#js-summer">Вопросы</a></li>
 								<li><a href="#js-dostavka">Доставка</a></li>
 								<li><a href="#js-contact">Контакты</a></li>
 							</ul>

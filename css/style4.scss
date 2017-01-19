@@ -1,4 +1,54 @@
+body, html{
+	height:100%;
+}
 
+.n-header{
+	display:table-row;
+	height: 1px;
+}
+.n-content{
+	display:table-row;
+
+}
+.n-footer{
+	display:table-row;
+	height: 1px;
+
+}
+.n-wrapper{
+	width: 100%;
+	height: 100%;
+	display:table;
+}
+.n-content-inner{
+	display:table-cell;
+	padding:15px;
+}
+.vertical-align{
+	vertical-align:middle;
+}
+.dd-spasibo-wrap{
+	background:#DDDDDD;
+	text-align: center;
+	padding: 20px 15px;
+	border-radius: 15px;
+	max-width: 500px;
+	margin: 0 auto;	
+	// margin: -100px auto;
+	.f{
+		display: inline-block;
+		color:#666666;
+		font-family: "RobotoCondensedRegular";
+		font-size: 25px;
+		text-transform: uppercase;
+	}
+	.n{
+		display: inline-block;
+		color:#666666;
+		font-family: "RobotoCondensedRegular";
+		font-size: 20px;
+	}
+}
 /* Шапка
 ==========================*/
 
@@ -449,7 +499,10 @@
 		}
 	}
 	.dd-actions{
-		padding: 10px 40px;
+		padding: 3px 40px;
+		span{
+			font-size: 20px;
+		}
 	}
 	.dd-number{
 		display: block;
@@ -536,7 +589,9 @@
 			}
 		}
 	}
-
+	.dd-spasibo-wrap{
+	margin: -100px auto;
+}
 }
 
 @media only screen and (min-width : 1248px) {
