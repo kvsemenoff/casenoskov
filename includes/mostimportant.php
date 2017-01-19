@@ -9,9 +9,9 @@
 				         Наш менеджер перезвонит через 12 минут!
 				    </div>
 
-				    <form action="" class="order__form" method="POST">
+				    <form action="#" class="order__form form1" method="POST">
 				        <span>
-				            <input type="text" name="tel">
+				            <input class="phone" type="text" placeholder="8(___)___-__-__"  name="phone">
 				        </span>
                         <span>
                             <input class="button-1 dc-button" type="submit" class="button1" name="order_button" value="ЗАКАЗАТЬ">

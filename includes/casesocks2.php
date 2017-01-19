@@ -1,15 +1,7 @@
-<section class="section section_padding" id="js-socks">
+<section class="section section_padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 df-view">
-				<h2 class="df-case-caption df-case-caption_view">Кейсы носков</h2>
-				<div class="df-top-block df-top-block_view">
-					<span>Все носки одинаковые</span>
-					<span>Гладкие, без рисунка</span>
-					<span>Умеренно тянутся</span>
-					<span>Резинка не жмет</span>
-				</div>
-
 				<div class="df-blocksocks df-blocksocks_view">
 					<div class="df-blocksocks__absolute df-blocksocks__absolute_view">Выгодно</div>
 					<div class="df-blocksocks__image df-blocksocks__image_view">

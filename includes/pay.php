@@ -1,4 +1,4 @@
-<section class="section section_pay-view">
+<section class="section section_pay-view" id="js-dostavka">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
