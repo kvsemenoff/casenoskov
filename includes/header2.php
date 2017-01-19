@@ -74,7 +74,7 @@
 						бамбуковых волокон, но их популярность далека от носков.
 					</span>
 					<div class="inner-but">
-						<a class="button-1 button-1_orange button-1_font_2 uns" href="#">Посмотреть все носки</a>
+						<a class="button-1 button-1_orange button-1_font_2 uns" href="/#js-socks">Посмотреть все носки</a>
 					</div>
 				</div>
 				<div class="clearfix"></div>
