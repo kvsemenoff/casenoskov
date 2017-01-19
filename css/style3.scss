@@ -21,7 +21,7 @@
 }
 
 .dc-button {
-    background: url("../img/dc-button-bg.png");
+    background: url("../img/dc-button-bg.png") no-repeat top center;
     background-size:100%;
     width: 210px;
     height: 45px !important;
@@ -38,8 +38,8 @@
 }
 
 .dc-button:hover {
-    color: white;
-    background: gray;
+    
+    background: url("../img/dc-button-bg_hover.png") no-repeat top center;
 }
 
 .dc-phone {
