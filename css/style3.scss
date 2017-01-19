@@ -66,7 +66,7 @@
 	display: block;
 	background: url('../img/dc-left-arrow.png') no-repeat;
 	position: absolute;
-	top: 30%;
+	top: 25%;
     left: 30px;
 }
 
@@ -77,7 +77,7 @@
 	background: url('../img/dc-right-arrow.png') no-repeat;
 	position: absolute;
 	right: 20px;
-    top: 30%;
+    top: 25%;
 }
 
 .responses {
@@ -101,7 +101,7 @@
 
 .responses__slider_title {
 	color: black;
-	font-family: "MyriadPro";
+	font-family: "MyriadPro-Regular";
 	font-size: 24px;
 	font-weight: 400;
 	padding-top: 10px;
@@ -125,6 +125,9 @@
 	padding: 5px;	
 }
 
+.section_padding-dc_view {
+	max-height: 1100px;
+}
 
 @media only screen and (max-width : 700px) {
 }

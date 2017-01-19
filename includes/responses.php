@@ -1,4 +1,4 @@
-<section class="section section_padding">
+<section class="section section_padding section_padding-dc_view">
 	<div class="container">		
 		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 		    <div class="row">		
