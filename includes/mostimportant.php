@@ -19,7 +19,9 @@
 				    </form>
 
 				    <div class="order__garant">				        
-				        Мы гарантируем сохранность персональных данных
+                        <span class="order__garant_text">  
+				            Мы гарантируем сохранность персональных данных
+				        </span>
 				    </div>     
 				</div>
 			</div>
