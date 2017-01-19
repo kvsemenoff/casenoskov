@@ -82,6 +82,7 @@
 			font-size: 14px;
 			.db-button-db{
 				padding: 10px;
+				font-size: 18px ;
 			}
 		}
 		.db-img-box2{
@@ -197,6 +198,34 @@
 	color: #ffba00;
 }
 
+.section-gifts-db-fon{
+	font-family: "RobotoCondensedRegular";
+	background: url("../img/db-gifts.jpg") no-repeat;
+	background-size: cover;
+	color:#fff;
+	margin-top: 2px;
+	text-align: center;
+}
+.db-center-gifts{
+	text-align: center;
+	display: block;
+	color: #ffba00;
+	padding-bottom: 15px;
+}
+.db-span-view{
+	font-size:24px;
+	text-transform: uppercase;
+	padding-bottom: 35px;
+	// outline: 1px solid red;
+	display: block;
+}
+.db-p-view{
+	font-size: 18px;
+	line-height: 30px;
+
+}
+
+
 
 @media only screen and (min-width : 320px) {
 	.db-case-content__case1{
@@ -230,6 +259,30 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.db-container-three{
+		padding-top: 50px;
+	}
+	.db-imgbox-right{
+		margin-left:-40px; 
+	}
+	.db-container-two{
+		padding-top:33px;
+	}
+	.db-block-one{
+		padding-top: 70px;
+		padding-left: 32px;
+	}
+	.db-block-two{
+		padding-right: 75px;
+	}
+	.db-block-three{
+		padding-top: 50px;
+		padding-left: 50px;
+	}
+	.section-gifts-db-fon{
+		text-align: left;
+		padding: 45px 0 !important;
+	}
 	.section_pay-view{
 		padding: 45px 0 !important;
 	}
@@ -297,8 +350,11 @@
 			font-family: "RobotoCondensedLight";
 		}
 		.db-button{
+
 			.db-button-db{
 				padding: 10px;
+				    margin-left: 0px !important;
+
 			}
 		}
 		.db-img-box2{

@@ -1,4 +1,4 @@
-<section class="section section_background-db section_padding-db">
+<section class="section section_background-db section_padding-db" id="js-keys">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
