@@ -13,9 +13,9 @@
 .order__want {
     color: white;
     text-align: center;
-    font-family: "RobotoCondensedBold";
+    font-family: "RobotoCondensedLight" !important;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 200;
 	padding-top: 0px;
 	padding-bottom: 8px;
 }
@@ -27,7 +27,7 @@
 	box-sizing: border-box;
 	border: none;
 	border-radius: 3px;
-	font-family: "RobotoCondensedLight";
+	font-family: "RobotoCondensedBold" !important;
 	font-size: 30px;
 	font-weight: 400;
 	color: black;
@@ -38,7 +38,7 @@
 
 .order__garant {
     color: white;
-    font-family: "RobotoCondensedLight";
+    font-family: "RobotoCondensedLight" !important;
 	font-size: 16px;
 	font-weight: 400;
 	text-align: center;
