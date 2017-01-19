@@ -26,7 +26,7 @@
 						<p class="db-contacts-p2">Тел.: +7(499)348-23-18 <br> 
 							E-mail: info@casenoskov.ru </p>
 							<div class="db-button">
-								<a href="#log-in" name="modal" class="button-1 button-1_orange db-button-db">Заказать обратный звонок</a>
+								<a href="#log-in" name="modal" class="button-1 button-1_orange  button-1_font_2 db-button-db">Заказать обратный звонок</a>
 							</div>
 							<div class="db-img-box2">
 								<img src="img/db-phone.png" alt="img">

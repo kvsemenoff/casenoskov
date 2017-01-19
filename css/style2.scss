@@ -82,6 +82,7 @@
 			font-size: 14px;
 			.db-button-db{
 				padding: 10px;
+				font-size: 18px ;
 			}
 		}
 		.db-img-box2{
@@ -305,6 +306,9 @@
 	.db-h2{
 		text-align: center;
 		padding-bottom: 20px;
+		h2{
+		padding-top:0 !important;
+	}
 	}
 
 	
@@ -349,8 +353,11 @@
 			font-family: "RobotoCondensedLight";
 		}
 		.db-button{
+
 			.db-button-db{
 				padding: 10px;
+				    margin-left: 0px !important; 
+
 			}
 		}
 		.db-img-box2{

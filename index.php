@@ -34,10 +34,10 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/comfort.php'); ?>
 	<?php require_once('includes/howseecase.php'); ?>
-	<?php require_once('includes/pay.php'); ?>
-	<?php require_once('includes/gifts.php'); ?>
 	<?php require_once('includes/casesocks.php'); ?>
 	<?php require_once('includes/questions.php'); ?>
+	<?php require_once('includes/pay.php'); ?>
+	<?php require_once('includes/gifts.php'); ?>
 	<?php require_once('includes/responses.php'); ?>
 	<?php require_once('includes/mostimportant.php'); ?>
 	<?php require_once('includes/contacts.php'); ?>

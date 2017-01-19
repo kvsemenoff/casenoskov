@@ -224,7 +224,7 @@
 						<img src="img/df-case5.png" class="img-responsive" alt="">
 					</div>
 					<div class="df-blocksocks__text-block df-blocksocks__text-block_view">
-						<h4 class="df-blocksocks__cap df-blocksocks__cap_view">Кейс носков <span>«Бамбуковые носки MIX»</span></h4>
+						<h4 class="df-blocksocks__cap df-blocksocks__cap_view">Кейс носков <span>«Носки ХБ MIX»</span></h4>
 						<div class="df-blocksocks__char">
 							<span class="df-blocksocks__characteristics df-blocksocks__characteristics_view">Состав: 100% Хлопок </span>
 							<span class="df-blocksocks__characteristics df-blocksocks__characteristics_view">Цвет: черный, серый, белый </span>
