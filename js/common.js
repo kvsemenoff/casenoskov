@@ -48,6 +48,31 @@ $(document).ready(function(){
         }
         return false;
     });
+
+    var owl = $(".slider-db");
+
+    owl.owlCarousel({
+
+        loop:true,//Зацикливаем слайдер
+        nav:true, //Навигация включена
+        autoplay:false,//автозапуск
+        smartSpeed:1000,//Время движения
+        margin:0,    
+        navText:['<span class="db-left"></span>','<span class="db-right"></span>'],
+        responsive:{
+          0:{
+            items:1
+          },       
+          1000:{
+            items:2
+          },
+          1248:{
+            items:2
+          }
+        }
+
+    });
+
     function cleanTnanks(form){
         $('input[type="text"]').removeClass("error-input");
         $("input[type=text], textarea").val("");
