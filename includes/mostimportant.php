@@ -10,12 +10,8 @@
 				    </div>
 
 				    <form action="#" class="order__form form1" method="POST">
-				        <span>
-				            <input class="phone" type="text" placeholder="8(___)___-__-__"  name="phone">
-				        </span>
-                        <span>
-                            <input class="button-1 dc-button" type="submit" class="button1" name="order_button" value="ЗАКАЗАТЬ">
-                        </span>
+				            <input class="phone dc-phone" type="text" placeholder="8(___)___-__-__"  name="phone">
+                            <input class="dc-button" type="submit" class="button1" name="order_button" value="ЗАКАЗАТЬ">
 				    </form>
 
 				    <div class="order__garant">				        
