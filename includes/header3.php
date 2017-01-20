@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="dd-header-top-left">
-					<a href="#"><img class="img-responsive" src="img/logo.png" alt=""></a>
+					<a href="index.php"><img class="img-responsive" src="img/logo.png" alt=""></a>
 				</div>
 			</div>
 			<div class="col-md-4">
