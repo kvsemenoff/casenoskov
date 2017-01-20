@@ -359,7 +359,8 @@ body, html{
 		background:url(../img/kres.png) no-repeat center;
 		position:absolute;
 		top:-27px;
-		right:-27px;
+		right: 10px;
+		// right:-27px;
 		cursor: pointer;
 	}
 }
@@ -522,7 +523,11 @@ body, html{
 }
 
 @media only screen and (min-width : 768px) {
-
+	.window{ 
+		.dd-close{
+			right: -24px;
+		}
+	}
 
 }
 
@@ -590,8 +595,8 @@ body, html{
 		}
 	}
 	.dd-spasibo-wrap{
-	margin: -100px auto;
-}
+		margin: -100px auto;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
@@ -663,7 +668,7 @@ body, html{
 		// Конец хедер боттом
 	}
 
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
