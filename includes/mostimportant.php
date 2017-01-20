@@ -9,8 +9,16 @@
 				         Наш менеджер перезвонит через 12 минут!
 				    </div>
 				    <form action="#" class="order__form form1" method="POST">
-				            <input class="phone dc-phone" type="text" placeholder="8(___)___-__-__"  name="phone">
-                            <input class="dc-button" type="submit" name="order_button" value="">
+				    	<div class="row">
+				    		<div class="col-md-6">
+				    			<input class="phone dc-phone" type="text" placeholder="8(___)___-__-__"  name="phone">
+				    		</div>
+				    		<div class="col-md-6">
+				    			<input class="dc-button-1" type="submit" name="order_button" value="">
+				    		</div>
+				    	</div>
+				            
+                            
 				    </form>
 
 				    <div class="order__garant">				        

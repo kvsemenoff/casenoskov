@@ -42,8 +42,32 @@
     background: url("../img/dc-button-bg_hover.png") no-repeat top center;
 }
 
+.dc-button-1 {
+    background: url("../img/dc-button-bg.png") no-repeat top center;
+    background-size:100%;
+    width: 210px;
+    height: 45px !important;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 3px;
+	font-family: "RobotoCondensedBold" !important;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+	padding-bottom: 11px;	
+	margin-left: 10px;
+
+	
+}
+
+.dc-button-1:hover {
+    
+    background: url("../img/dc-button-bg_hover.png") no-repeat top center;
+}
+
 .dc-phone {
     height: 45px !important;
+    margin-bottom: 15px;
 }
 
 .order__garant {
@@ -193,7 +217,15 @@
 	display: inline-block;	
 	padding-top: 5px;
 }
-
+.order__form{
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+}
 .order__garant_text {
 	background: url("../img/dc-zamok.png") no-repeat left center;
 	padding-left: 15px;
