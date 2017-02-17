@@ -34,7 +34,7 @@
 
 	<div class="n-wrapper">
 		<div class="n-header">
-			<?php require_once('includes/header3.php'); ?>
+			
 		</div>
 
 		<div class="n-content">
@@ -47,7 +47,7 @@
 		</div>
 
 		<div class="n-footer">
-			<?php require_once('includes/footer.php'); ?>
+			
 		</div>
 
 	</div>

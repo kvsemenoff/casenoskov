@@ -394,7 +394,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>30 пар</span>
+							<span class="dfpar">30 пар</span>
 							<span>1400 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -403,7 +403,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>50 пар</span>
+							<span class="dfpar">50 пар</span>
 							<span>1800 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -412,16 +412,21 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>100 пар</span>
+							<span class="dfpar">100 пар</span>
 							<span>2500 руб.</span>
 						</div>
 
 						<span class="df-blocksocks__price df-blocksocks__price_view">Сумма: <span>2500 руб.</span></span>
 
 						<div class="df-blocksocks__order df-blocksocks__order_view">
-							<form method="post" class="form1">
+							<form method="post" class="form1" >
 								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
 								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+
+
+								<input type="hidden" name="product" value="«Натуральный Хлопок»" class="product">
+								<input type="hidden" name="par" class="par" value="1">
+								<input type="hidden" name="price" class="price" value="1">
 							</form>
 						</div>
 					</div>
@@ -445,7 +450,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>30 пар</span>
+							<span class="dfpar">30 пар</span>
 							<span>1400 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -454,7 +459,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>50 пар</span>
+							<span class="dfpar">50 пар</span>
 							<span>1800 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -463,7 +468,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>100 пар</span>
+							<span class="dfpar">100 пар</span>
 							<span>2500 руб.</span>
 						</div>
 
@@ -473,6 +478,9 @@
 							<form method="post" class="form1">
 								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
 								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+								<input type="hidden" name="product" value="«Натуральный Хлопок»" class="product">
+								<input type="hidden" name="par" class="par" value="1">
+								<input type="hidden" name="price" class="price" value="1">
 							</form>
 						</div>
 					</div>
@@ -498,7 +506,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>30 пар</span>
+							<span class="dfpar">30 пар</span>
 							<span>1400 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -507,7 +515,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>50 пар</span>
+							<span class="dfpar">50 пар</span>
 							<span>1800 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -516,7 +524,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>100 пар</span>
+							<span class="dfpar">100 пар</span>
 							<span>2500 руб.</span>
 						</div>
 
@@ -526,6 +534,9 @@
 							<form method="post" class="form1">
 								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
 								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+								<input type="hidden" name="product" value="«Натуральный Хлопок»" class="product">
+								<input type="hidden" name="par" class="par" value="1">
+								<input type="hidden" name="price" class="price" value="1">
 							</form>
 						</div>
 					</div>
@@ -551,7 +562,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>30 пар</span>
+							<span class="dfpar">30 пар</span>
 							<span>1400 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -560,7 +571,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>50 пар</span>
+							<span class="dfpar">50 пар</span>
 							<span>1800 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -569,7 +580,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>100 пар</span>
+							<span class="dfpar">100 пар</span>
 							<span>2500 руб.</span>
 						</div>
 
@@ -579,6 +590,9 @@
 							<form method="post" class="form1">
 								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
 								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+								<input type="hidden" name="product" value="«Натуральный Хлопок»" class="product">
+								<input type="hidden" name="par" class="par" value="1">
+								<input type="hidden" name="price" class="price" value="1">
 							</form>
 						</div>
 					</div>
@@ -604,7 +618,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>30 пар</span>
+							<span class="dfpar">30 пар</span>
 							<span>1400 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -613,7 +627,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>50 пар</span>
+							<span class="dfpar">50 пар</span>
 							<span>1800 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -622,7 +636,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>100 пар</span>
+							<span class="dfpar">100 пар</span>
 							<span>2500 руб.</span>
 						</div>
 
@@ -632,6 +646,9 @@
 							<form method="post" class="form1">
 								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
 								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+								<input type="hidden" name="product" value="«Натуральный Хлопок»" class="product">
+								<input type="hidden" name="par" class="par" value="1">
+								<input type="hidden" name="price" class="price" value="1">
 							</form>
 						</div>
 					</div>
@@ -655,7 +672,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>30 пар</span>
+							<span class="dfpar">30 пар</span>
 							<span>1400 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -664,7 +681,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>50 пар</span>
+							<span class="dfpar">50 пар</span>
 							<span>1800 руб.</span>
 						</div>
 						<div class="df-blocksocks__inputs df-blocksocks__inputs_view">
@@ -673,7 +690,7 @@
 					   			<span class="checkbox-custom"></span>
 					   			<span class="label"></span>
 				   			</label>
-							<span>100 пар</span>
+							<span class="dfpar">100 пар</span>
 							<span>2500 руб.</span>
 						</div>
 
@@ -683,6 +700,9 @@
 							<form method="post" class="form1">
 								<input type="text" class="phone" name="phone" placeholder="8(___)___-__-__">
 								<input type="submit" class="df-but" name="submit" value="ЗАКАЗАТЬ">
+								<input type="hidden" name="product" value="«Натуральный Хлопок»" class="product">
+								<input type="hidden" name="par" class="par" value="1">
+								<input type="hidden" name="price" class="price" value="1">
 							</form>
 						</div>
 					</div>

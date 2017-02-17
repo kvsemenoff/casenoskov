@@ -81,6 +81,32 @@ $(document).ready(function(){
         // $('a[href=#thanks]').trigger('click');
     };
 
+
+    $('.checkbox-custom').on('click', function(){
+        var koli4estvo = $(this).parents('label').next('span').text();
+        var price = $(this).parents('label').next('span').next('span').text();
+
+        $(this).parents('.df-blocksocks__text-block_view').find('.df-blocksocks__price_view').find('span').text(price);
+        
+        var next = $(this).parents('label').next('span');
+        // $(this).parents('.df-blocksocks__text-block_view').find('.df-blocksocks__cap_view').html();
+        // var next = $('.df-blocksocks__inputs_view').find('label').next('span').html();
+
+        $('.df-blocksocks__cap_view').each(function(){
+            $(this).parents('.df-blocksocks__text-block_view').find('.product').val($(this).text());
+        });
+        $('.df-blocksocks__price_view span').each(function(){
+            $(this).parents('.df-blocksocks__price_view').next('.df-blocksocks__order_view').find('.price').val($(this).text());
+        });
+
+        $(next).each(function(){
+            $(this).parents('.df-blocksocks__text-block_view').find('.par').val($(this).html());
+        });
+ 
+    });
+
+
+
 });
 
 
